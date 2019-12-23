@@ -1,9 +1,3 @@
-provider "aws" {
-  region     = "ap-south-1"
-  access_key = "AKIAUKV5HPCPDOZCOOGR"
-  secret_key = "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"
-}
-
 module "vpc" {
   source = "./modules/networking/vpc"
   tag_name = "vijay1"
